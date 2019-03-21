@@ -1,3 +1,6 @@
 auth/lib
 auth/path
 *.pyc
+.idea
+service-account.json
+venv
