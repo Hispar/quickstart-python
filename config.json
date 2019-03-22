@@ -1,29 +1,20 @@
 {
   "conditions": [
-    {
-      "name": "AndroidUsers",
-      "expression": "device.os == 'android'",
-      "tagColor": "PURPLE"
-    },
-    {
-      "name": "iOSUsers",
-      "expression": "device.os == 'ios'",
-      "tagColor": "GREEN"
-    }
   ],
   "parameters": {
     "welcome_message": {
       "defaultValue": {
         "value": "Welcome"
-      },
-      "conditionalValues": {
-        "AndroidUsers": {
-          "value": "Welcome Android User"
-        },
-        "iOSUsers": {
-          "value": "Welcome iOS User"
-        }
       }
     }
+  },
+  "version": {
+    "versionNumber": "1",
+    "updateTime": "2019-03-21T11:59:28.345Z",
+    "updateUser": {
+      "email": "firebase-adminsdk-hhc2e@vampiro-b9fd9.iam.gserviceaccount.com"
+    },
+    "updateOrigin": "REST_API",
+    "updateType": "INCREMENTAL_UPDATE"
   }
 }
